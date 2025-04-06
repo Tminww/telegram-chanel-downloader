@@ -8,6 +8,7 @@ print(BASE_PATH)
 
 class Config(BaseSettings):
     # Обязательные параметры
+    BASE_PATH: Path = BASE_PATH
     API_ID: int
     API_HASH: str
     PHONE: str

@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+*chats
 # C extensions
 *.so
 *.session
